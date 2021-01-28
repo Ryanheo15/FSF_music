@@ -1,0 +1,54 @@
+/* -------------- GENERAL --------------- */
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"nunito";
+}
+
+/* Colors */
+.silver-bg  {
+  background-color: #D4D4DC !important;
+}
+
+.grey-bg {
+  background-color:#393F4D !important;
+}
+
+.dark-slate-bg {
+  background-color:#1D1E22 !important;
+}
+
+.yellow-bg {
+  background-color:#FEDA6A !important;
+}
+
+
+/* -------------- SIDE NAV --------------- */
+
+.play_icon {
+  font-size:72px;
+}
+
+.nav_link {
+  font-size:32px;
+  text-decoration: none !important;
+}
+
+.nav_link:hover {
+  border-bottom: 3px solid #FEDA6A;
+}
+
+/* -------------- MAIN --------------- */
+main {
+  height:100vh;
+}
+
+#main_col {
+  background: url("../images/landingImage.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  height:100vh;
+}
